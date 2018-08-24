@@ -1,0 +1,9 @@
+{
+  "port": 22,
+  "dstPort": 6379,
+  "localHost": "127.0.0.1",
+  "localPort": 6380,
+  "keepAlive": true,
+  "rsa": "config/file/path/here",
+  "username": "user"
+}
