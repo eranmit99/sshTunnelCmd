@@ -1,0 +1,16 @@
+{
+  "name": "sshtunnelcmd",
+  "version": "1.0.0",
+  "description": "CMD wrapper for sshTunnel module",
+  "main": "./lib/ssh.js",
+  "bin": {
+    "sshTunnel": "./bin/index.js"
+  },
+  "author": "eranmit@gmail.com",
+  "dependencies": {
+    "colors": "^1.2.1",
+    "commander": "^2.17.1",
+    "lodash": "^4.17.10",
+    "tunnel-ssh": "^4.1.4"
+  }
+}
