@@ -9,6 +9,7 @@ program
     .option('-d, --dstHost <dstHost>', 'Destination host address')
     .option('-p, --localPort <localPort>', 'local port')
     .option('-c, --config <config>', 'path to local config file to override')
+    .option('-u, --username <config>', 'user to login with')
     .action((program) => {
         const {host, dstHost, localPort, config} = program;
 
@@ -18,8 +19,8 @@ program
         }
 
         if (host && dstHost) {
-            const {host, dstHost, localPort} = program;
-            ssh.exec({ host, dstHost, localPort});
+            const {host, dstHost, localPort, username} = program;
+            ssh.exec({ host, dstHost, localPort, username});
         }
 
     })

@@ -4,6 +4,6 @@
   "localHost": "127.0.0.1",
   "localPort": 6380,
   "keepAlive": true,
-  "rsa": "config/file/path/here",
+  "rsa": "/Users/eranmitrani/.ssh/id_rsa",
   "username": "user"
 }
