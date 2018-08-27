@@ -4,7 +4,6 @@ npm install -g ./
 # Usage
 1. Create a new config.json file: 
 
-		example file:
 		{
 			"port": 22,
 			"dstPort": 6379,
